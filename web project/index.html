@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Robot Shop Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="landing">
+  <header class="site-header">
+    <h1 class="logo">RoboBazaar</h1>
+    <p class="tag">Robots designed by AI. Built for you.</p>
+  </header>
+
+  <main class="hero">
+    <div class="hero-left">
+      <h2>The Future of Smart Helpers</h2>
+      <p class="lead">Check out our smart robots—from simple helpers to loyal companions. They're stylish and ready to ship.</p>
+
+      <p class="cta-row">
+        <a class="btn primary" href="main.html">Start Shopping</a>
+        <a class="btn ghost" href="contact.html">Ask a Question</a>
+      </p>
+    </div>
+
+    <div class="hero-right">
+      <svg width="320" height="320" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="hero-robot">
+        <defs>
+          <linearGradient id="g" x1="0" x2="1">
+            <stop offset="0%" stop-color="#00F2FF"/>
+            <stop offset="100%" stop-color="#7A00FF"/>
+          </linearGradient>
+        </defs>
+        <rect x="30" y="30" width="140" height="120" rx="16" fill="url(#g)" opacity="0.18" />
+        <rect x="55" y="50" width="90" height="70" rx="10" fill="#0f1724" stroke="#00F2FF" stroke-opacity="0.8"/>
+        <circle cx="95" cy="80" r="12" fill="#00F2FF"/>
+        <rect x="85" y="105" width="20" height="12" rx="3" fill="#00F2FF"/>
+        <rect x="40" y="155" width="120" height="8" rx="4" fill="#111827"/>
+      </svg>
+    </div>
+  </main>
+
+  <section class="features">
+    <article>
+      <h3>AI Design</h3>
+      <p>Every robot is created using an AI system for unique looks and lasting quality.</p>
+    </article>
+    <article>
+      <h3>Easy Shopping</h3>
+      <p>Browse our collection easily and ship worldwide (this is a practice site).</p>
+    </article>
+    <article>
+      <h3>Smart & Safe</h3>
+      <p>Robots are built to help people safely, with good behavior built-in.</p>
+    </article>
+  </section>
+
+  <footer class="landing-footer">
+    <nav>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About Us</a>
+    </nav>
+    <p>© <span id="year"></span> RobotShop</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

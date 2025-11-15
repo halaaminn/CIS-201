@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About Us — Simple Robot Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="shop-header">
+    <div class="brand">
+      <h1><a href="main.html" style="text-decoration:none;color:inherit">RoboBazaar</a></h1>
+      <p class="micro">Cool robots for sale!</p>
+    </div>
+
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="main.html">Shop</a>
+      <a href="about.html" class="active">About Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="info" id="about">
+      <h2>Who We Are</h2>
+      
+      <div class="about-grid">
+        <div class="about-content">
+          
+          <h3>Welcome to RobotShop</h3>
+          <p>We are a team of engineering students who love robotics. We started this shop to make smart robots easy to find and use for everyone.</p>
+          
+          <h3>Our Goal</h3>
+          <p>Our goal is to design robots that connect new ideas with daily life. We use our skills in software and networking to build smart and reliable robot helpers.</p>
+
+          <div class="features-list">
+            <div class="feature">
+              <h4>AI Design</h4>
+              <p>Robots are designed by computer intelligence for the best looks and function.</p>
+            </div>
+            <div class="feature">
+              <h4>High Quality</h4>
+              <p>Every robot is tested strictly to make sure it is safe and works well.</p>
+            </div>
+            <div class="feature">
+              <h4>Your Choice</h4>
+              <p>You can choose different robot "personalities" and skills for your needs.</p>
+            </div>
+          </div>
+
+          <h3>What We Use</h3>
+          <p>We use smart computer programs to create robots that act like companions:</p>
+          <ul class="feature-list">
+            <li>Smart design algorithms</li>
+            <li>Learning systems for robot behavior</li>
+            <li>Robots that can adjust in real-time</li>
+            <li>Low-power operation</li>
+          </ul>
+
+          <h3>What We Promise</h3>
+          <p>We aim for the best safety and quality. Every robot comes with:</p>
+          <ul class="feature-list">
+            <li>1-year warranty (guarantee)</li>
+            <li>Always-on technical help</li>
+            <li>Free updates for the robot's software</li>
+            <li>Full safety approval</li>
+          </ul>
+        </div>
+        
+        <aside class="about-sidebar">
+          
+          <div class="stat-box">
+            <h4>Fast Facts</h4>
+            <ul>
+              <li>Started: 2025</li>
+              <li>Robots Sold: 1000+</li>
+              <li>Happy Customers: 98%</li>
+              <li>Support: Available 24/7</li>
+            </ul>
+          </div>
+
+          <div class="stat-box">
+            <h4>Our Team</h4>
+            <ul>
+                <li><strong>Deema Alhamed:</strong> CEO</li>
+                <li><strong>Zikra Abdulkareem:</strong> Robotics Chief</li>
+                <li><strong>Hala Amin:</strong> AI Leader</li>
+                <li><strong>Nawal Khattab:</strong> Assistant</li>
+            </ul>
+          </div>
+
+          <div class="stat-box">
+            <h4>Official Certs</h4>
+            <ul>
+              <li>Quality Standard: ISO 9001</li>
+              <li>Safety Approved</li>
+              <li>Eco-Friendly Partner</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <p>© <span id="year"></span> RobotShop</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
